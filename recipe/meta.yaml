@@ -1,4 +1,4 @@
-{% set version = '0.1.6' %}
+{% set version = "0.1.6" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -17,7 +17,7 @@ source:
 
 build:
   noarch: generic
-  number: 1001
+  number: 1002
 
   rpaths:
     - lib/R/lib/
@@ -65,13 +65,11 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=Plasmidprofiler
-  license: Apache 2.0
-  summary: Contains functions developed to combine the results of querying a plasmid database
-    using short-read sequence typing with the results of a blast analysis against the
-    query results.
+  license: Apache-2.0
+  summary: Contains functions developed to combine the results of querying a plasmid database using short-read sequence typing with the results of a blast analysis against the query results.
   license_family: APACHE
 extra:
-   recipe-maintainers:
+  recipe-maintainers:
     - conda-forge/r
     - MathiasHaudgaard
     - FrodePedersen
