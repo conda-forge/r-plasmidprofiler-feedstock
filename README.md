@@ -1,11 +1,11 @@
-About r-plasmidprofiler
-=======================
+About r-plasmidprofiler-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plasmidprofiler-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=Plasmidprofiler
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plasmidprofiler-feedstock/blob/main/LICENSE.txt)
 
 Summary: Contains functions developed to combine the results of querying a plasmid database using short-read sequence typing with the results of a blast analysis against the query results.
 
